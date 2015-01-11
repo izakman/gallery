@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>    
+  <title>HeroForge</title>
+  
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Titillium:400,700">
+  
+  <link rel="stylesheet" href="css/swipebox.css">
+  <link rel="stylesheet" href="css/main.css" />
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.swipebox.min.js"></script>
+  <script src="js/fittext.js"></script>
+  
+</head>
+<body>
+  
+  <header>
+    <h1 id="title">Gallery of Work</h1>
+  </header>
+  
+  <div class="wrapper">
+    <section class="main">
+      
+      <ul class="images">
+        <li>
+          <a class="lightbox" href="images/gutcher-goose_logo.jpg">
+            <img src="images/thumbs/gutcher-goose_logo_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a class="lightbox" href="images/hilltop-logo.jpg">
+            <img src="images/thumbs/hilltop-logo_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a class="lightbox" href="images/kezize_logo.jpg">
+            <img src="images/thumbs/kezize_logo_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a class="lightbox" href="images/kezize_pendant.jpg">
+            <img src="images/thumbs/kezize_pendant_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a class="lightbox" href="images/playforge_logo.jpg">
+            <img src="images/thumbs/playforge_logo_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a class="lightbox" href="images/pencoed_logo1.jpg">
+            <img src="images/thumbs/pencoed_logo1_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a class="lightbox" href="images/pencoed_logo2.jpg">
+            <img src="images/thumbs/pencoed_logo2_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a class="lightbox" href="images/pencoed_labels.jpg">
+            <img src="images/thumbs/pencoed_labels_thumb.jpg">
+          </a>
+        </li>
+      </ul>
+      
+    </section>
+  </div>
+  
+  <script>
+    window.fitText(document.getElementById("title"));
+    $('.lightbox').swipebox();
+  </script>
+  
+</body>
+</html>
