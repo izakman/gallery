@@ -16,7 +16,8 @@
 <body>
   
   <header>
-    <h1 id="title">Gallery of Work</h1>
+    <div id="leadup">Isaac's</div>
+    <div id="title">Gallery of Work</div>
   </header>
   
   <div class="wrapper">
@@ -24,42 +25,59 @@
       
       <ul class="images">
         <li>
-          <a class="lightbox" href="images/gutcher-goose_logo.jpg">
+          <a class="lightbox" href="images/Capture-gg.jpg" title="Gutcher Goose website.">
+            <img src="images/thumbs/Capture-gg_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a class="lightbox" href="images/Capture-bs.jpg" title="Baltasound Hotel website.">
+            <img src="images/thumbs/Capture-bs_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a class="lightbox" href="images/Capture-stp.jpg" title="St. Pierre rental website.">
+            <img src="images/thumbs/Capture-stp_thumb.jpg">
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="lightbox" href="images/gutcher-goose_logo.jpg" title="Gutcher Goose logo.">
             <img src="images/thumbs/gutcher-goose_logo_thumb.jpg">
           </a>
         </li>
         <li>
-          <a class="lightbox" href="images/hilltop-logo.jpg">
+          <a class="lightbox" href="images/hilltop-logo.jpg" title="Hilltop logo.">
             <img src="images/thumbs/hilltop-logo_thumb.jpg">
           </a>
         </li>
         <li>
-          <a class="lightbox" href="images/kezize_logo.jpg">
+          <a class="lightbox" href="images/kezize_logo.jpg" title="Wedding logo for my wife and I.">
             <img src="images/thumbs/kezize_logo_thumb.jpg">
           </a>
         </li>
         <li>
-          <a class="lightbox" href="images/kezize_pendant.jpg">
+          <a class="lightbox" href="images/kezize_pendant.jpg" title="Pendant for my wife.">
             <img src="images/thumbs/kezize_pendant_thumb.jpg">
           </a>
         </li>
         <li>
-          <a class="lightbox" href="images/playforge_logo.jpg">
+          <a class="lightbox" href="images/playforge_logo.jpg" title="Logo for a personal project.">
             <img src="images/thumbs/playforge_logo_thumb.jpg">
           </a>
         </li>
         <li>
-          <a class="lightbox" href="images/pencoed_logo1.jpg">
+          <a class="lightbox" href="images/pencoed_logo1.jpg" title="Pencoed Growers logo earlier version.">
             <img src="images/thumbs/pencoed_logo1_thumb.jpg">
           </a>
         </li>
         <li>
-          <a class="lightbox" href="images/pencoed_logo2.jpg">
+          <a class="lightbox" href="images/pencoed_logo2.jpg" title="Pencoed Growers logo final.">
             <img src="images/thumbs/pencoed_logo2_thumb.jpg">
           </a>
         </li>
         <li>
-          <a class="lightbox" href="images/pencoed_labels.jpg">
+          <a class="lightbox" href="images/pencoed_labels.jpg" title="Jam-jar labels for Pencoed Growers.">
             <img src="images/thumbs/pencoed_labels_thumb.jpg">
           </a>
         </li>
@@ -69,6 +87,7 @@
   </div>
   
   <script>
+    window.fitText(document.getElementById("leadup"));
     window.fitText(document.getElementById("title"));
     $('.lightbox').swipebox();
   </script>
